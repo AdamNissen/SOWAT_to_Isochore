@@ -216,3 +216,4 @@ fig.supylabel('Pressure (mPa)')
 #plotting and printing
 plt.tight_layout()
 plt.savefig("Output\individual_colours.jpg", dpi = 300)
+plt.savefig("Output\individual_colours.svg", dpi = 300) #saving an svg for manual editing if necessary
